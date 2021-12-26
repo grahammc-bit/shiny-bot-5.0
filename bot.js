@@ -66,7 +66,7 @@ function postMessage() {
     "text" : shinyLimit
   };
 
-  console.log('sending ' + botResponse + ' to ' + botID);
+  console.log('sending ' + shinyLimit + ' to ' + botID);
 
   botReq = HTTPS.request(options, function(res) {
       if(res.statusCode == 202) {
