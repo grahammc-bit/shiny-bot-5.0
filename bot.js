@@ -37,7 +37,7 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
 
-  botResponse = cool();
+  botResponse = "Message limit for this shiny has been reached. Please try again later.";
 
   options = {
     hostname: 'api.groupme.com',
