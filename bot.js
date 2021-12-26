@@ -37,21 +37,21 @@ function postMessage() {
   var shinyLimit, options, body, botReq;
 
   shinyLimit = "Message limits for shinies are as follows:\n\nZalla: " + zalla + 
-  "\nPepper: " + pepper + 
-  "\nLawler: " + lawler + 
-  "\nAzula: " + azula + 
-  "\nWard: " + ward + 
-  "\nManchio: " + manchio + 
-  "\nZazzaro: " + zazzaro + 
-  "\nLee: " + lee + 
-  "\nMissan: " + missan + 
-  "\nWallace: " + wallace + 
-  "\nWeeks: " + weeks + 
-  "\nEugenio: " + eugenio + 
-  "\nFaircloth: " + faircloth + 
-  "\nO'Brien: " + obrien + 
-  "\nCain: " + cain + 
-  "\nGraham: " + graham;
+  "\nPepper: " + "12" + 
+  "\nLawler: " + "12" + 
+  "\nAzula: " + "12" + 
+  "\nWard: " + "12" + 
+  "\nManchio: " + "12" + 
+  "\nZazzaro: " + "12" + 
+  "\nLee: " + "12" + 
+  "\nMissan: " + "12" + 
+  "\nWallace: " + "12" + 
+  "\nWeeks: " + "12" + 
+  "\nEugenio: " + "12" + 
+  "\nFaircloth: " + "12" + 
+  "\nO'Brien: " + "12" + 
+  "\nCain: " + "12" + 
+  "\nGraham: " + "12";
 
   limitReached = "Message limit for this shiny has been reached. Please try again later.";
 
