@@ -36,7 +36,7 @@ function respond() {
 function postMessage() {
   var shinyLimit, options, body, botReq;
 
-  shinyLimit = "Message limits for shinies are as follows:\n\nZalla: " + zalla + 
+  shinyLimit = "Message limits for shinies are as follows:\n\nZalla: " + "12" + 
   "\nPepper: " + "12" + 
   "\nLawler: " + "12" + 
   "\nAzula: " + "12" + 
