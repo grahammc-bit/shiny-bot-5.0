@@ -1,7 +1,7 @@
 {
-  "name": "Cool guy bot",
-  "description": "Basic Groupme Bot written in Node",
-  "repository": "https://github.com/petemcgrath/cool-guy-bot",
-  "logo": "http://www.tailgate365.com/wp-content/uploads/2011/06/tom-hanks-906.jpg",
+  "name": "Shiny Monitor 5.0 bot",
+  "description": "Groupme bot to monitor Theta Tau shiny messages",
+  "repository": "https://github.com/grahammc-bit/shiny-bot-5.0",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/HAL9000.svg/1200px-HAL9000.svg.png",
   "keywords": []
 }

@@ -2,6 +2,22 @@ var HTTPS = require('https');
 var cool = require('cool-ascii-faces');
 
 var botID = process.env.BOT_ID;
+var zalla = 37863686;
+var pepper = 27286451;
+var lawler = 33010513;
+var azula = 42848688;
+var ward = 18762178;
+var manchio = 41186997;
+var zazzaro = 52768087;
+var lee = 56671056;
+var missan = 18146675;
+var wallace = 27162323;
+var weeks = 86863593;
+var eugenio = 73331175;
+var faircloth = 86306706;
+var obrien = 29647539;
+var cain = 73883564;
+var graham = 44788980;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
