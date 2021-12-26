@@ -1,5 +1,4 @@
 var HTTPS = require('https');
-var cool = require('cool-ascii-faces');
 
 var botID = process.env.BOT_ID;
 var zalla = 37863686;
@@ -21,7 +20,7 @@ var graham = 44788980;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\/cool guy$/;
+      botRegex = /^\/shiny$/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -35,9 +34,26 @@ function respond() {
 }
 
 function postMessage() {
-  var botResponse, options, body, botReq;
+  var shinyLimit, options, body, botReq;
 
-  botResponse = "Message limit for this shiny has been reached. Please try again later.";
+  shinyLimit = "Message limits for shinies are as follows:\n\nZalla: " + zalla + 
+  "\nPepper: " + pepper + 
+  "\nLawler: " + lawler + 
+  "\nAzula: " + azula + 
+  "\nWard: " + ward + 
+  "\nManchio: " + manchio + 
+  "\nZazzaro: " + zazzaro + 
+  "\nLee: " + lee + 
+  "\nMissan: " + missan + 
+  "\nWallace: " + wallace + 
+  "\nWeeks: " + weeks + 
+  "\nEugenio: " + eugenio + 
+  "\nFaircloth: " + faircloth + 
+  "\nO'Brien: " + obrien + 
+  "\nCain: " + cain + 
+  "\nGraham: " + graham;
+
+  limitReached = "Message limit for this shiny has been reached. Please try again later.";
 
   options = {
     hostname: 'api.groupme.com',
@@ -47,7 +63,7 @@ function postMessage() {
 
   body = {
     "bot_id" : botID,
-    "text" : botResponse
+    "text" : shinyLimit
   };
 
   console.log('sending ' + botResponse + ' to ' + botID);
