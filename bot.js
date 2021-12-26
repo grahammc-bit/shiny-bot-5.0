@@ -50,7 +50,8 @@ function postMessage() {
   "\nEugenio: " + "12" + 
   "\nFaircloth: " + "12" + 
   "\nO'Brien: " + "12" + 
-  "\nCain: " + "12";
+  "\nCain: " + "12" +
+  "\nCollette: " + "12";
   
   limitReached = "Message limit for this shiny has been reached. Please try again later.";
 
